@@ -1,0 +1,46 @@
+body {
+    background-color: blue;
+}
+.heading {
+    color: white;
+    padding-top: 50px;
+    max-width: 400px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.grid-bin {
+    display: grid;
+    grid-template-columns: auto 200px auto auto ;
+    grid-row: 4;
+    gap: 15px;
+    max-width: 1200px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid-bin div {
+    background-color: white;
+    text-align: center;
+    font-size: 35px;
+}
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.item5 {
+    grid-row-start:2 ;
+    grid-row-end: 4;
+}
+.item3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.item11 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.item10 {
+    grid-row-start: 2;
+    grid-row-end:4 ;
+}
